@@ -7,7 +7,7 @@ import java.time.Period;
 
 
 @Entity
-@Table
+@Table(name = "student")
 public class Student {
     @Id
     @SequenceGenerator(
